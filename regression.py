@@ -10,7 +10,7 @@ from sklearn import metrics
 from google.colab import files
 import io
 uploaded = files.upload()
-df1 = pd.read_csv(io.BytesIO(uploaded['iris.csv']))
+df1 = pd.read_csv((uploaded['iris.csv']))
 df1
 
 pw_mean = df1['pw'].mean()
