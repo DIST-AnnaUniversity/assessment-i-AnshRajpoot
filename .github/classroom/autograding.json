@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "average",
+      "setup": "sudo -H pip3 install pandas",
+      "run": "python3 average.py",
+      "input": "",
+      "output": "1.2",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "range",
+      "setup": "sudo -H pip3 install pandas",
+      "run": "python3 range.py",
+      "input": "",
+      "output": "2.4",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 7
+    },
+    {
+      "name": "regression",
+      "setup": "sudo -H pip3 install pandas; sudo -H pip3 install scikit-learn; sudo -H pip3 install numpy",
+      "run": "python3 regression.py",
+      "input": "",
+      "output": "1.85",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 13
+    }
+  ]
+}
